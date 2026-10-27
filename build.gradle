@@ -33,6 +33,8 @@ dependencies {
     testCompileOnly 'org.projectlombok:lombok'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     testAnnotationProcessor 'org.projectlombok:lombok'
+    // Source: https://mvnrepository.com/artifact/com.cloudinary/cloudinary-http44
+    implementation 'com.cloudinary:cloudinary-http44:1.38.0'
 }
 
 tasks.named('test') {
